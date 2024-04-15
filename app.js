@@ -4,30 +4,25 @@ const {
   defaultRouteController,
   mainRouteController,
   voteRouteController,
-} = require("./controllers"); 
-
-
-
-
+} = require("./controllers");
 
 const server = http.createServer((req, res) => {
-  
   const url = req.url;
   switch (url) {
     case "/":
       mainRouteController(res, "/index.html", ".html");
       break;
     case "/game":
-     gameRouteController(res,);
+      gameRouteController(res);
 
       break;
 
     case "/vote":
-      voteRouteController(req,res);
-        break;
-      
+      voteRouteController(req, res);
+      break;
+
     default:
-      defaultRouteController(res,url);
+      defaultRouteController(res, url);
   }
 });
 
