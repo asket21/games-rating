@@ -1,6 +1,9 @@
-const staticFile = require('../AppModules/http-utils/static-file')
+
 const path = require('path')
-const mimeTypes = require("../AppModules/http-utils/mime-types")
+const {
+  mimeTypes,
+  staticFile,
+} = require("../AppModules/http-utils")
 
 
 async function defaultRouteController(res,url) {
