@@ -1,0 +1,24 @@
+{
+  "name": "4_module_project",
+  "version": "1.0.0",
+  "description": "pindie game rating app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asket21/Project-4-modules-YAP.git"
+  },
+  "author": "asket-21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asket21/Project-4-modules-YAP/issues"
+  },
+  "homepage": "https://github.com/asket21/Project-4-modules-YAP#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
